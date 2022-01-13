@@ -1,6 +1,6 @@
 {
   "name": "move-cursor",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This script moves your cursor for some duration. Default is 1 minute.",
   "repository": {
     "type": "git",
