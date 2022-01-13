@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import robot from 'robotjs';
 import { getTime } from './utils.js';
 

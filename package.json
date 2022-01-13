@@ -1,11 +1,14 @@
 {
   "name": "move-cursor",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "This script moves your cursor for some duration. Default is 1 minute.",
   "main": "index.js",
   "type": "module",
   "dependencies": {
     "robotjs": "^0.6.0"
+  },
+  "bin": {
+    "move-cursor": "index.js"
   },
   "scripts": {
     "start": "node index.js"
