@@ -4,7 +4,7 @@ import robot from 'robotjs';
 import { getTime } from './utils.js';
 
 const durationType = process.argv[3] ?? 'min';
-const duration = process.argv[2] ? Number(process.argv[2]) : 1;
+const duration = process.argv[2] ? Number(process.argv[2]) : 2;
 const interval = durationType === 'sec' ? duration * 1000 : duration * 60000;
 
 const screenSize = robot.getScreenSize();
