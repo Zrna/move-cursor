@@ -17,7 +17,7 @@ console.log(`Interval: ${duration} ${durationType}`);
 console.log(`Start: ${getTime()}`);
 console.log(`Screen center: W${screenCenter.width}, H${screenCenter.height} \n`); // prettier-ignore
 
-if (typeof duration !== Number) {
+if (isNaN(duration)) {
   process.exitCode = 1;
   throw new Error('Duration value must be a number.');
 }
