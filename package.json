@@ -1,7 +1,7 @@
 {
   "name": "move-cursor",
-  "version": "1.0.5",
-  "description": "This script moves your cursor for some duration. Default is 1 minute.",
+  "version": "1.0.6",
+  "description": "This script moves your cursor for some duration",
   "repository": {
     "type": "git",
     "url": "https://github.com/Zrna/move-cursor.git"
